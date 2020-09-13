@@ -4,6 +4,8 @@
   "description": "",
   "main": "index.js",
   "dependencies": {
+    "jquery": "^3.5.1",
+    "slick-carousel": "^1.8.1",
     "webpack": "^4.44.1"
   },
   "devDependencies": {

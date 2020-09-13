@@ -1,4 +1,5 @@
 const path = require('path');
+const webpack = require('webpack');
 const HTMLWebpackPlugin = require('html-webpack-plugin');
 const { CleanWebpackPlugin } = require('clean-webpack-plugin');
 const MiniCssExtractPlugin = require('mini-css-extract-plugin');
@@ -26,6 +27,10 @@ module.exports = {
             filename: '[contenthash].css',
         }),
         new CleanWebpackPlugin(),
+        new webpack.ProvidePlugin({
+            $: 'jquery',
+            jQuery: 'jquery'
+        }),
     ],
     module: {
         rules: [
@@ -105,7 +110,8 @@ module.exports = {
                         options: {
                             mozjpeg: {
                               progressive: true,
-                              quality: 80
+                              quality: 80,
+                              enabled: false
                             },
                             optipng: {
                               enabled: false,
@@ -136,18 +142,6 @@ module.exports = {
                     }
                 ]
             },
-            {
-                test: /\.(woff(2)?|ttf|eot|svg)(\?v=\d+\.\d+\.\d+)?$/,
-                use: [
-                  {
-                    loader: 'file-loader', 
-                    options: {
-                      name: '[name].[ext]',
-                      outputPath: 'fonts/'
-                    }
-                  }
-                ]
-            }
         ]
     }
 }

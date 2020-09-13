@@ -1,0 +1,74 @@
+.catalog-slider {
+    width: 100%;
+
+    &__slide {
+        width: 100%;
+        min-height: 680px;
+
+        & > .container {
+            min-height: inherit;
+            display: flex;
+        }
+    }
+
+    &__title {
+        font-family: Montserrat Alternates, sans-serif;
+        color: @whiteColor;
+        font-size: 5rem;
+        font-weight: @fwN;
+        text-transform: uppercase;
+        margin-bottom: 1rem;
+    }
+
+    &__desc {
+        font-size: 1.62rem;
+        color: @whiteColor;
+        margin-bottom: 5rem;
+        display: block;
+    }
+
+    &__arrow {
+        background-color: transparent;
+        cursor: pointer;
+        width: 22.02px;
+        height: 22.63px;
+        fill: @whiteColor;
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        z-index: 20;
+
+        &--back {
+            left: 50px;
+        }
+
+        &--next {
+            right: 50px;
+        }
+    }
+
+    .slick-dots {
+        position: absolute;
+        list-style: none;
+        bottom: 31px;
+        left: 50%;
+        transform: translateX(-50%);
+        display: flex;
+        li {
+            width: 13px;
+            height: 13px;
+            margin: 0 13px;
+            border-radius: 50%;
+            background-color: @whiteColor;
+            opacity: .5;
+            transition: .3s;
+            button {
+                display: none;
+            }
+        }
+
+        .slick-active {
+            opacity: 1;
+        }
+    }
+}
