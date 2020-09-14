@@ -10,6 +10,11 @@ import './../node_modules/slick-carousel/slick/slick.css';
 
 import './img/logo.png';
 import './img/catalog-slider/catalog-sofa1.jpg';
+import './img/catalog/sofa.png';
+import './img/catalog/cheir.png';
+import './img/catalog/bed.png';
+import './img/catalog/console.png';
+import './img/feedbacks/user1.png';
 
 //Styles
 
@@ -24,3 +29,7 @@ import './js/common.js';
 
 import './img/icons/back.svg';
 import './img/icons/next.svg';
+import './img/icons/sofa.svg';
+import './img/icons/cheirs.svg';
+import './img/icons/bed.svg';
+import './img/icons/consoles.svg';

@@ -1,0 +1,73 @@
+.catalog-section {
+    text-decoration: none;
+    margin-bottom: -50px;
+
+    &__item {
+        text-decoration: none;
+        justify-content: space-between;
+        display: flex;
+        align-items: center;
+        margin-bottom: 50px;
+
+        &--reverse {
+            flex-direction: row-reverse;
+
+            .catalog-section__image {
+                left: -73px;
+
+            }
+
+        }
+
+        &:hover {
+            .catalog-section__image {
+                transform: translateY(-50%) scale(1.1);
+            }
+
+            .catalog-section__name {
+                letter-spacing: 1px;
+            }
+        }
+    }
+
+    &__mark {
+        width: 100%;
+        max-width: 410px;
+        background-color: #F8F8F8;
+        position: relative;
+        min-height: 415px;
+    }
+
+    &__image {
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        left: 73px;
+        transition: @defaultTransition;
+    }
+
+    &__name {
+        font-family: Montserrat Alternates, sans-serif;
+        font-weight: @fwL;
+        font-size: 2.12rem;
+        color: @textColor;
+        margin: 0 10.25rem;
+        display: block;
+        position: relative;
+        transition: @defaultTransition;
+
+        &:after {
+            content: '';
+            display: block;
+            position: absolute;
+            left: 50%;
+            transform: translate(-50%);
+            bottom: -16px;
+            width: 105%;
+            height: 1px;
+            background-color: @textColor;
+        }
+    }
+
+
+}

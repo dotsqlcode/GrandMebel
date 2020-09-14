@@ -1,0 +1,27 @@
+.catalog-menu {
+
+    &__link {
+        text-decoration: none;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        &:hover .catalog-menu__item-name {
+            letter-spacing: 1px;
+        }
+    }
+
+    &__item {
+        width: 117px;
+        height: 64px;
+        margin-bottom: 2rem;
+    }
+
+    &__item-name {
+        display: block;
+        color: @textColor;
+        font-size: 1.5rem;
+        transition: @defaultTransition;
+
+    }
+}
