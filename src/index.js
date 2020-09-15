@@ -15,6 +15,10 @@ import './img/catalog/cheir.png';
 import './img/catalog/bed.png';
 import './img/catalog/console.png';
 import './img/feedbacks/user1.png';
+import './img/backgrounds/catalog-refers/cloths.png';
+import './img/backgrounds/catalog-refers/guarantee.png';
+import './img/backgrounds/catalog-refers/machinery.png';
+import './img/backgrounds/catalog-refers/service.png';
 
 //Styles
 
@@ -33,3 +37,6 @@ import './img/icons/sofa.svg';
 import './img/icons/cheirs.svg';
 import './img/icons/bed.svg';
 import './img/icons/consoles.svg';
+import './img/icons/vk.svg';
+import './img/icons/instagram.svg';
+import './img/icons/facebook.svg';
