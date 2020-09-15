@@ -19,6 +19,7 @@ import './img/backgrounds/catalog-refers/cloths.png';
 import './img/backgrounds/catalog-refers/guarantee.png';
 import './img/backgrounds/catalog-refers/machinery.png';
 import './img/backgrounds/catalog-refers/service.png';
+import './img/logo-f.png';
 
 //Styles
 
@@ -40,3 +41,6 @@ import './img/icons/consoles.svg';
 import './img/icons/vk.svg';
 import './img/icons/instagram.svg';
 import './img/icons/facebook.svg';
+import './img/icons/facebook-f.svg';
+import './img/icons/vk-f.svg';
+import './img/icons/instagram-f.svg';

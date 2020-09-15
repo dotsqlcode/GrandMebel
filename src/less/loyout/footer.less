@@ -1,0 +1,96 @@
+.footer {
+    background-color: #111;
+    padding: 3.9rem 0 7rem 0;
+
+    &__list {
+
+        &:not(:first-child) {
+            margin-left: 6.25rem;
+        }
+
+        .refer {
+            height: 50px;
+            width: 162px;
+            background-color: @whiteColor;
+            color: @textColor;
+            margin-top: 16px;
+
+            &:hover {
+                background-color: transparent;
+                color: @whiteColor;
+            }
+        }
+    }
+
+    &__link {
+        color: @whiteColor;
+        text-decoration: none;
+        line-height: 36px;
+        font-size: 18px;
+        transition: @defaultTransition;
+        position: relative;
+
+        &:after {
+            content: '';
+            position: absolute;
+            bottom: -2px;
+            left: 0;
+            height: 1px;
+            width: 0%;
+            background-color: @whiteColor;
+            transition: @defaultTransition;
+
+        }
+
+        &:hover {
+
+            &:after {
+                width: 94%;
+            }
+        }
+    }
+
+    &__email {
+        color: @whiteColor;
+        font-size: 19px;
+        font-weight: @fwM;
+        margin-bottom: 16px;
+        text-decoration: none;
+        display: block;
+    }
+
+    &__developer {
+        color: @unactiveColor;
+        font-size: 19px;
+        text-decoration: none;
+        display: block;
+
+        span {
+            font-weight: @fwSB;
+        }
+    }
+
+    .logo {
+        margin-bottom: 20px;
+    }
+
+    .social-media {
+
+        &__link {
+            transition: @defaultTransition;
+            &:not(:last-child) {
+                margin-right: 15px;
+            }
+
+            &:hover {
+                transform: rotate(360deg);
+            }
+        }
+    }
+
+    .num {
+        color: @whiteColor;
+        font-size: 1.8rem;
+        margin-bottom: 30px;
+    }
+}
