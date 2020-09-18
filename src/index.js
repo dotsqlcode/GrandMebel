@@ -20,6 +20,13 @@ import './img/backgrounds/catalog-refers/guarantee.png';
 import './img/backgrounds/catalog-refers/machinery.png';
 import './img/backgrounds/catalog-refers/service.png';
 import './img/logo-f.png';
+import './img/backgrounds/covers/about.jpg';
+import './img/steps/start-work.jpg';
+import './img/steps/material.jpg';
+import './img/steps/szycie.jpg';
+import './img/steps/gamma.jpg';
+import './img/backgrounds/covers/work1.jpg';
+import './img/backgrounds/covers/work2.jpg';
 
 //Styles
 

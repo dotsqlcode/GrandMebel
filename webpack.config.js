@@ -21,7 +21,16 @@ module.exports = {
     devtool: isDev ? 'cheap-inline-module-source-map' : false,
     plugins: [
         new HTMLWebpackPlugin({
-            template: path.resolve(__dirname, 'src/index.html')
+            template: path.resolve(__dirname, 'src/index.html'),
+            filename: 'index.html'
+        }),
+        new HTMLWebpackPlugin({
+            template: path.resolve(__dirname, 'src/about.html'),
+            filename: 'about.html'
+        }),
+        new HTMLWebpackPlugin({
+            template: path.resolve(__dirname, 'src/fabrics.html'),
+            filename: 'fabrics.html'
         }),
         new MiniCssExtractPlugin({
             filename: '[contenthash].css',
