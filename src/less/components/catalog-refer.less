@@ -1,9 +1,28 @@
 .catalog-refer {
     width: 100%;
-    min-height: 550px;
-    padding: 3.5rem;
-    display: flex;
-    justify-content: space-between;
+    transition: background-size @defaultTransition;
+    position: relative;
+
+    &:hover {
+        background-size: 110% !important;
+    }
+
+    &:after {
+        content: '';
+        padding-top: 100%;
+        display: block;
+    }
+
+    &__inner {
+        padding: 3.5rem;
+        display: flex;
+        justify-content: space-between;
+        position: absolute;
+        left: 0;
+        top: 0;
+        bottom: 0;
+        right: 0;
+    }
 
 
     &__title {

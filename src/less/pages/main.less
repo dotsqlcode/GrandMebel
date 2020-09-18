@@ -3,6 +3,112 @@
 
     .catalog-menu {
         margin-bottom: 4.32rem;
+
+        &__link {
+            
+            @media screen and (max-width: 767px) {
+                margin-bottom: 30px;
+            }
+        }
+
+    }
+
+    .catalog-section {
+
+        &__item {
+            @media screen and (max-width: 991px) {
+                flex-direction: column;
+            }
+
+            &--reverse .catalog-section__image {
+
+                @media screen and (max-width: 991px) {
+                    max-width: 50%;
+                }
+
+            }
+        }
+
+        &__name {
+
+            @media screen and (max-width: 1199px) {
+                margin: 0 20px;
+            }
+
+            @media screen and (max-width: 991px) {
+            }
+        }
+
+        &__mark {
+
+            @media screen and (max-width: 991px) {
+                background-color: @whiteColor;
+                max-width: 100%;
+                width: 100%;
+            }
+
+            @media screen and (max-width: 659px) {
+                min-height: 300px;
+            }
+
+            @media screen and (max-width: 381px) {
+                min-height: 230px;
+            }
+            
+        }
+
+        &__image {
+
+            @media screen and (max-width: 991px) {
+                left: 50%;
+                top: 50%;
+                max-width: 80%;
+                transform: translate(-50%, -50%);
+            }
+
+            
+
+            
+        }
+    }
+}
+
+.catalog-wrap {
+
+    .catalog-slider {
+
+        &__slide {
+
+            .container {
+
+                & > * {
+                    @media screen and (max-width: 720px) {
+                        text-align: center;
+                        margin-left: auto;
+                        margin-right: auto;
+                    }
+                }
+            }
+
+            @media screen and (max-width: 600px) {
+                min-height: 470px;
+            }
+        }
+
+        &__arrow {
+            
+            &--back {
+                @media screen and (max-width: 420px) {
+                    left: 20px;
+                }
+            }
+
+            &--next {
+                @media screen and (max-width: 420px) {
+                    right: 20px;
+                }
+            }
+        }
     }
 }
 
@@ -14,10 +120,85 @@
         font-weight: @fwN;
         margin-bottom: 3.75rem;
     }
+
+    .feedback-slider {
+        &__slide-image-wrapper {
+
+            @media screen and (max-width: 1199px) {
+                margin-right: 40px;
+            }
+
+            @media screen and (max-width: 767px) {
+                margin-bottom: 20px;
+                margin-right: 0;
+            }
+            
+        }
+
+        &__slide-wrapper {
+            @media screen and (max-width: 767px) {
+                flex-direction: column;
+            }
+        }
+
+        &__slide-feed {
+            @media screen and (max-width: 625px) {
+                font-size: 16px;
+            }
+        }
+
+        &__arrow {
+
+            &--back {
+
+                @media screen and (max-width: 1590px) {
+                    left: -100px;
+                }
+
+                @media screen and (max-width: 1340px) {
+                    left: -40px;
+                }
+
+            }
+
+            &--next {
+                @media screen and (max-width: 1590px) {
+                    right: -100px;
+                }
+
+                @media screen and (max-width: 1340px) {
+                    right: -40px;
+                }
+            }
+
+            @media screen and (max-width: 767px) {
+                display: none !important;
+            }
+        }
+    }
+}
+
+.refers {
+
+    .catalog-refer {
+        &__inner {
+            @media screen and (max-width: 991px) {
+                padding: 2rem
+            }
+        }
+
+        &__title {
+            @media screen and (max-width: 991px) {
+                font-size: 1.12rem;
+            }
+        }
+    }
 }
 
 .offer {
     background: url('./../../img/backgrounds/new-salon.png');
+    background-size: cover;
+    background-repeat: no-repeat;
     padding: 10rem 0;
 
     &__title {
@@ -37,7 +218,7 @@
     }
 
     &__description {
-        font-weight: @fwM;
+        font-weight: @fwN;
         font-size: 18px;
         color: @whiteColor;
         line-height: 32px;
@@ -90,6 +271,27 @@
 
         .row {
             width: 100%;
+
+            @media screen and (max-width: 736px) {
+                margin-left: 0;
+                margin-right: 0;
+            }
         }
+
+        @media screen and (max-width: 736px) {
+            width: 100%;
+            max-width: 100%;
+            align-items: flex-start;
+            padding-left: 0;
+            padding-right: 0;
+        }
+    }
+
+    .map-desc {
+
+        @media screen and (max-width: 420px) {
+            padding: 2rem
+        }
+        
     }
 }

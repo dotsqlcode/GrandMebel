@@ -6,6 +6,17 @@
 
         &:not(:first-child) {
             margin-left: 6.25rem;
+
+            @media screen and (max-width: 620px) {
+                margin-left: 0;
+            }
+        }
+
+        &:not(:last-child) {
+
+            @media screen and (max-width: 620px) {
+                margin-bottom: 20px;
+            }
         }
 
         .refer {
@@ -19,6 +30,14 @@
                 background-color: transparent;
                 color: @whiteColor;
             }
+        }
+
+
+    }
+
+    &__list-wrap {
+        @media screen and (max-width: 620px) {
+            flex-direction: column;
         }
     }
 
@@ -50,6 +69,16 @@
         }
     }
 
+    .num {
+        color: @whiteColor;
+        font-size: 1.8rem;
+        margin-bottom: 30px;
+
+        @media screen and (max-width: 1199px) {
+            display: none;
+        }
+    }
+
     &__email {
         color: @whiteColor;
         font-size: 19px;
@@ -57,6 +86,10 @@
         margin-bottom: 16px;
         text-decoration: none;
         display: block;
+
+        @media screen and (max-width: 1199px) {
+            display: none;
+        }
     }
 
     &__developer {
@@ -67,6 +100,11 @@
 
         span {
             font-weight: @fwSB;
+        }
+
+
+        @media screen and (max-width: 1199px) {
+            display: none;
         }
     }
 
@@ -86,11 +124,11 @@
                 transform: rotate(360deg);
             }
         }
+
+        @media screen and (max-width: 991px) {
+            margin-bottom: 20px;
+        }
     }
 
-    .num {
-        color: @whiteColor;
-        font-size: 1.8rem;
-        margin-bottom: 30px;
-    }
+
 }

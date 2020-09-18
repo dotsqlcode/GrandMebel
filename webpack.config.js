@@ -105,30 +105,30 @@ module.exports = {
                             name: 'img/[name].[ext]'
                         }
                     },
-                    {
-                        loader: 'image-webpack-loader',
-                        options: {
-                            mozjpeg: {
-                              progressive: true,
-                              quality: 80,
-                              enabled: false
-                            },
-                            optipng: {
-                              enabled: false,
-                            },
-                            pngquant: {
-                              enabled: false,
-                              quality: [0.65, 0.90],
-                              speed: 4
-                            },
-                            gifsicle: {
-                              interlaced: false,
-                            },
-                            webp: {
-                              quality: 75
-                            }
-                        }
-                    }
+                    // {
+                    //     loader: 'image-webpack-loader',
+                    //     options: {
+                    //         mozjpeg: {
+                    //           progressive: true,
+                    //           quality: 80,
+                    //           enabled: false
+                    //         },
+                    //         optipng: {
+                    //           enabled: false,
+                    //         },
+                    //         pngquant: {
+                    //           enabled: false,
+                    //           quality: [0.65, 0.90],
+                    //           speed: 4
+                    //         },
+                    //         gifsicle: {
+                    //           interlaced: false,
+                    //         },
+                    //         webp: {
+                    //           quality: 75
+                    //         }
+                    //     }
+                    // }
                 ]
             },
             {

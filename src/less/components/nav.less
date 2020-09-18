@@ -1,6 +1,5 @@
 .nav {
     display: flex;
-    justify-content: space-around;
 
     &__item {
         color: @textColor;
@@ -9,8 +8,39 @@
         text-transform: uppercase;
         transition: @defaultTransition;
 
+        &:not(:first-child) {
+            margin-left: 1.85rem;
+        }
+
         &:hover {
             color: @subTextColor;
+        }
+    }
+
+    &__burger {
+        align-self: flex-end;
+        cursor: pointer;
+        width: 40px;
+        height: 40px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        display: none;
+
+        @media screen and (max-width: 1199px) {
+            display: flex;
+        }
+    }
+
+    &__burger-line {
+        width: 35px;
+        height: 2px;
+        border-radius: 10px;
+        background-color: @textColor;
+
+        &:first-child {
+            margin-bottom: 10px;
         }
     }
 }
