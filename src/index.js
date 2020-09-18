@@ -27,6 +27,74 @@ import './img/steps/szycie.jpg';
 import './img/steps/gamma.jpg';
 import './img/backgrounds/covers/work1.jpg';
 import './img/backgrounds/covers/work2.jpg';
+import './img/backgrounds/covers/fabrics.jpg';
+import './img/backgrounds/covers/skin.jpg';
+import './img/tkani/henil/brown.png';
+import './img/tkani/henil/green.png';
+import './img/tkani/henil/green down.png';
+import './img/tkani/henil/yait.png';
+import './img/tkani/henil/blue.png';
+import './img/tkani/henil/gray.png';
+import './img/tkani/henil/gold.png';
+
+import './img/tkani/rogoja/jrange.png';
+import './img/tkani/rogoja/big brown.png';
+import './img/tkani/rogoja/gray up.png';
+import './img/tkani/rogoja/big gray.png';
+import './img/tkani/rogoja/gray small right.png';
+import './img/tkani/rogoja/brown down right.png';
+import './img/tkani/rogoja/brown down.png';
+
+
+import './img/tkani/jacard/up small.png';
+import './img/tkani/jacard/big blue.png';
+import './img/tkani/jacard/small right up.png';
+import './img/tkani/jacard/big gray1.png';
+import './img/tkani/jacard/small orange.png';
+import './img/tkani/jacard/small dark blue.png';
+import './img/tkani/jacard/small rigt down.png';
+
+
+import './img/tkani/velur/pink.png';
+import './img/tkani/velur/small right upp.png';
+import './img/tkani/velur/big dark pink.png';
+import './img/tkani/velur/Big gray up.png';
+import './img/tkani/velur/br1.png';
+import './img/tkani/velur/br 2.png';
+import './img/tkani/velur/small right ddown.png';
+
+import './img/tkani/folk/gr3.png';
+import './img/tkani/folk/brr 4.png';
+import './img/tkani/folk/bllu1.png';
+import './img/tkani/folk/pr1.png';
+import './img/tkani/folk/sssmal1 pink.png';
+import './img/tkani/folk/bbblue11.png';
+import './img/tkani/folk/bblue dowwn.png';
+
+
+import './img/tkani/natkoja/redd.png';
+import './img/tkani/natkoja/ggarr1.png';
+import './img/tkani/natkoja/bblluue1.png';
+import './img/tkani/natkoja/greeee2.png';
+import './img/tkani/natkoja/g1g.png';
+import './img/tkani/natkoja/dddaarkbb2.png';
+import './img/tkani/natkoja/grar22.png';
+
+import './img/tkani/ecokoja/ye2.png';
+import './img/tkani/ecokoja/bbblack.png';
+import './img/tkani/ecokoja/brrroowo2.png';
+import './img/tkani/ecokoja/bbbig garary12.png';
+import './img/tkani/ecokoja/ggagaara12.png';
+import './img/tkani/ecokoja/daddadrk bbbrow.png';
+import './img/tkani/ecokoja/yayayw1.png';
+
+import './img/tkani/isskystven koja/upupup22.png';
+import './img/tkani/isskystven koja/ggrggrgrgeg22n.png';
+import './img/tkani/isskystven koja/rrrrirrghtt uu.png';
+import './img/tkani/isskystven koja/bigbigbig brown.png';
+import './img/tkani/isskystven koja/sssmsamal brown.png';
+import './img/tkani/isskystven koja/rrrirght bbro33n.png';
+import './img/tkani/isskystven koja/rightttt343.png';
 
 //Styles
 
