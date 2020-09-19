@@ -1,0 +1,28 @@
+.shop-item {
+    & > * {
+        display: block;
+    }
+
+    &__name {
+        font-weight: @fwM;
+        margin-bottom: 15px;
+        font-size: 18px;
+    }
+
+    &__desc {
+        font-size: 16px;
+        line-height: 26px;
+    }
+
+    &__link {
+        color: @textColor;
+        font-size: 16px;
+        text-decoration: none;
+        transition: @defaultTransition;
+        line-height: 26px;
+
+        &:hover {
+            color: @unactiveColor;
+        }
+    }
+}
