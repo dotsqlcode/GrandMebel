@@ -96,6 +96,15 @@ import './img/tkani/isskystven koja/sssmsamal brown.png';
 import './img/tkani/isskystven koja/rrrirght bbro33n.png';
 import './img/tkani/isskystven koja/rightttt343.png';
 
+
+import './img/steps/diller.jpg';
+import './img/steps/delivery.jpg';
+import './img/backgrounds/covers/cooperation.jpg';
+import './img/backgrounds/covers/cover-service1.jpg';
+import './img/backgrounds/covers/cover-service2.jpg';
+import './img/steps/service-offer.jpg';
+import './img/backgrounds/covers/service.jpg';
+
 //Styles
 
 import './less/style.less';

@@ -20,6 +20,26 @@
         line-height: 30px;
     }
 
+    &__open-time {
+        display: block;
+        color: #949494;
+        font-size: 16px;
+        margin-top: 22px;
+    }
+
+    &__number {
+        display: block;
+        text-decoration: none;
+        font-size: 2.12rem;
+        color: @textColor;
+        transition: @defaultTransition;
+        margin-top: 23px;
+
+        &:hover {
+            color: @unactiveColor;
+        }
+    }
+
     &__content {
         width: 85%;
     }
@@ -27,6 +47,10 @@
     &__desc-wrapper &__description {
         &:not(:last-child) {
             margin-bottom: 2.5rem;
+        }
+
+        span {
+            font-weight: @fwSB;
         }
     }
 

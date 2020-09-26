@@ -40,6 +40,10 @@ module.exports = {
             template: path.resolve(__dirname, 'src/cooperation.html'),
             filename: 'cooperation.html'
         }),
+        new HTMLWebpackPlugin({
+            template: path.resolve(__dirname, 'src/service.html'),
+            filename: 'service.html'
+        }),
         new MiniCssExtractPlugin({
             filename: '[contenthash].css',
         }),

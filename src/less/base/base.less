@@ -21,3 +21,50 @@ html {
         font-size: 14px;
     }
 }
+
+
+.map {
+    position: relative;
+
+    .container {
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+        pointer-events: none;
+        z-index: 20;
+        height: 100%;
+        display: flex;
+        align-items: center;
+
+        .row {
+            width: 100%;
+
+            @media screen and (max-width: 736px) {
+                margin-left: 0;
+                margin-right: 0;
+            }
+
+            & > div {
+                @media screen and (max-width: 736px) {
+                   padding: 0;
+                }
+            }
+        }
+
+        @media screen and (max-width: 736px) {
+            width: 100%;
+            max-width: 100%;
+            align-items: flex-start;
+            padding-left: 0;
+            padding-right: 0;
+        }
+    }
+
+    .map-desc {
+
+        @media screen and (max-width: 420px) {
+            padding: 2rem
+        }
+        
+    }
+}

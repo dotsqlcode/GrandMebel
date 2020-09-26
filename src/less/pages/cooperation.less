@@ -1,3 +1,65 @@
 .cooperation {
+    padding-top: 7.5rem;
+
+    .step {
+        &:not(:last-child) {
+            margin-bottom: 7.3rem;
+        }
+
+        &__title {
+            margin-bottom: 2.5rem;
+            font-family: Montserrat;
+            font-weight: @fwM;
+
+        }
+    }
+}
+
+
+.cooperation-form {
+    padding: 5.9rem 0;
     
+
+    &__title {
+        font-size: 2.12rem;
+        color: @textColor;
+        font-family: Montserrat Alternates;
+        font-weight: @fwM;
+        margin-bottom: 1.87rem;
+        text-align: center;
+    }
+
+    &__description {
+        font-size: 1.25rem;
+        color: #272727;
+        text-align: center;
+        line-height: 30px;
+        margin-bottom: 2.8rem;
+    }
+
+    .callback {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+
+        &__field {
+            background-color: #F8F8F8;
+        }
+
+        .button {
+            width: 172px;
+            height: 65px;
+            font-weight: @fwM;
+            font-size: 20px;
+            color: #4E4E4E;
+            border: 1px solid #4E4E4E;
+            margin: 0 auto;
+            transition: @defaultTransition;
+
+            &:hover {
+                background-color: #4E4E4E;
+                color: @whiteColor;
+            }
+        }
+    }
 }
