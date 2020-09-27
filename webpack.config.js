@@ -33,6 +33,10 @@ module.exports = {
             filename: 'fabrics.html'
         }),
         new HTMLWebpackPlugin({
+            template: path.resolve(__dirname, 'src/mechanisms.html'),
+            filename: 'mechanisms.html'
+        }),
+        new HTMLWebpackPlugin({
             template: path.resolve(__dirname, 'src/shops.html'),
             filename: 'shops.html'
         }),
@@ -43,6 +47,10 @@ module.exports = {
         new HTMLWebpackPlugin({
             template: path.resolve(__dirname, 'src/service.html'),
             filename: 'service.html'
+        }),
+        new HTMLWebpackPlugin({
+            template: path.resolve(__dirname, 'src/catalog.html'),
+            filename: 'catalog.html'
         }),
         new MiniCssExtractPlugin({
             filename: '[contenthash].css',

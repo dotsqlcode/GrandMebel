@@ -104,6 +104,27 @@ import './img/backgrounds/covers/cover-service1.jpg';
 import './img/backgrounds/covers/cover-service2.jpg';
 import './img/steps/service-offer.jpg';
 import './img/backgrounds/covers/service.jpg';
+import './img/backgrounds/service-form.jpg';
+import './img/backgrounds/covers/mecha.jpg';
+
+import './img/mechanisms/daytone1.jpg';
+import './img/mechanisms/daytone2.jpg';
+import './img/mechanisms/delfin1.jpg';
+import './img/mechanisms/delfin2.jpg';
+import './img/mechanisms/hodry1.jpg';
+import './img/mechanisms/hodry2.jpg';
+import './img/mechanisms/hodry2.jpg';
+import './img/mechanisms/daunia1.jpg';
+import './img/mechanisms/daunia2.jpg';
+import './img/mechanisms/pantograf1.jpg';
+import './img/mechanisms/pantograf2.jpg';
+import './img/mechanisms/puma1.jpg';
+import './img/mechanisms/puma2.jpg';
+import './img/mechanisms/sedaflex1.jpg';
+import './img/mechanisms/sedaflex2.jpg';
+import './img/mechanisms/visoko1.jpg';
+import './img/mechanisms/visoko2.jpg';
+import './img/catalog-items/madeira.png';
 
 //Styles
 
