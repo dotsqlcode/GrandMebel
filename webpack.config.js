@@ -52,6 +52,10 @@ module.exports = {
             template: path.resolve(__dirname, 'src/catalog.html'),
             filename: 'catalog.html'
         }),
+        new HTMLWebpackPlugin({
+            template: path.resolve(__dirname, 'src/bed.html'),
+            filename: 'bed.html'
+        }),
         new MiniCssExtractPlugin({
             filename: '[contenthash].css',
         }),

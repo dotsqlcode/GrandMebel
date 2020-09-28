@@ -1,4 +1,7 @@
 .catalog-item {
+    text-decoration: none;
+    display: block;
+    padding: 5.8rem 0;
 
     &__image-wrap {
         background-color: #F8F8F8;
@@ -8,14 +11,23 @@
         position: relative;
         min-height: 341px;
         margin-bottom: 1.87rem;
+
+
+        &:hover {
+
+            .catalog-item__image {
+                transform: translate(-50%, -50%) scale(1.1);
+            }
+        }
     }
 
     &__image { 
         width: 120%;
-        position: relative;
+        position: absolute;
         left: 50%;
         top: 50%;
-        transform: translate(-50%, 50%);
+        transform: translate(-50%, -50%);
+        transition: @defaultTransition;
     }
 
     &__title {
@@ -24,6 +36,7 @@
         text-align: center;
         text-transform: uppercase;
         margin-bottom: 15px;
+        color: @textColor;
     }
 
     &__desc {

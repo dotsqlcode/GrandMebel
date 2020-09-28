@@ -124,7 +124,36 @@ import './img/mechanisms/sedaflex1.jpg';
 import './img/mechanisms/sedaflex2.jpg';
 import './img/mechanisms/visoko1.jpg';
 import './img/mechanisms/visoko2.jpg';
+import './img/backgrounds/covers/catalog-cover.jpg';
 import './img/catalog-items/madeira.png';
+import './img/catalog-items/emilia.png';
+import './img/catalog-items/enigma.png';
+import './img/catalog-items/fargo.png';
+import './img/catalog-items/figi.png';
+import './img/catalog-items/gaudi.png';
+import './img/catalog-items/konti.png';
+import './img/catalog-items/loren.png';
+
+import './img/bed/bed-big.jpg';
+import './img/bed/bed-cover.jpg';
+import './img/bed/bed-cover-form.jpg';
+import './img/bed/bed-desc.jpg';
+import './img/bed/bed-main.png';
+import './img/bed/bed-material.jpg';
+import './img/bed/bed-schem1.jpg';
+import './img/bed/bed-schem2.jpg';
+import './img/bed/mat (1).jpg';
+import './img/bed/mat (2).jpg';
+import './img/bed/mat (3).jpg';
+import './img/bed/mat (4).jpg';
+import './img/bed/mat (5).jpg';
+import './img/bed/mat (6).jpg';
+import './img/bed/mat (7).jpg';
+import './img/bed/mat (8).jpg';
+import './img/bed/mat (9).jpg';
+import './img/bed/mat (10).jpg';
+import './img/bed/mat (11).jpg';
+import './img/bed/mat (12).jpg';
 
 //Styles
 

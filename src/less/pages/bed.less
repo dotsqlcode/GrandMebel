@@ -1,0 +1,165 @@
+.bed-offer {
+    padding: 9.37rem 0;
+}
+
+.bed-desc {
+    padding-bottom: 9.37rem;
+
+    &__image {
+        max-width: 100%;
+    }
+
+    &__desc {
+        font-size: 17px;
+        color: @textColor;
+        line-height: 30px;
+        display: block;
+        max-width: 90%;
+
+        span {
+            font-weight: @fwSB;
+        }
+    }
+}
+
+.bed-params {
+    
+
+    .container {
+        min-height: 900px;
+        padding: 5.62rem 0;
+    }
+
+    &__params {
+        color: @whiteColor;
+        font-size: 20px;
+
+        span {
+            display: block;
+            font-weight: @fwSB;
+            line-height: 34px;
+
+            &:first-child {
+                font-weight: @fwN;
+                font-size: 16px;
+            }
+        }
+    }
+}
+
+.complect-item {
+    padding: 9.37rem 0;
+}
+
+.bed-place {
+    padding-bottom: 9.37rem;
+
+    &__title {
+        font-family: Montserrat Alternates;
+        font-weight: @fwM;
+        font-size: 1.5rem;
+        margin-bottom: 30px;
+    }
+
+    &__desc {
+        font-size: 18px;
+        line-height: 30px;
+        display: block;
+
+        span {
+            font-weight: @fwSB;
+        }
+    }
+
+    &__image {
+        display: block;
+        max-width: 100%;
+    }
+    
+}
+
+.bed-schems {
+    &__title {
+        text-align: center;
+        font-size: 2.1rem;
+        position: relative;
+        z-index: 5;
+        font-weight: @fwN;
+    }
+
+    .bed-slider {
+        margin-top: -70px;
+        overflow: hidden;
+        position: relative;
+    
+        .slick-slide {
+            width: 875px;
+            transition: @defaultTransition;
+            opacity: .4;
+        }
+
+        .slick-current {
+            opacity: 1;
+        }
+        
+    
+        &__image {
+            max-width: 100%;
+            display: block;
+        }
+
+        &__arrow {
+            background-color: transparent;
+            cursor: pointer;
+            width: 22.02px;
+            height: 22.63px;
+            fill: @whiteColor;
+            position: absolute;
+            top: 50%;
+            fill: @textColor;
+            transform: translateY(-50%);
+            z-index: 20;
+    
+            &--back {
+                left: 26%;
+            }
+    
+            &--next {
+                right: 26%;
+            }
+        }
+    
+        .slick-dots {
+            position: absolute;
+            list-style: none;
+            bottom: 60px;
+            left: 50%;
+            transform: translateX(-50%);
+            display: flex;
+            li {
+                width: 13px;
+                height: 13px;
+                margin: 0 13px;
+                border-radius: 50%;
+                background-color: @textColor;
+                opacity: .2;
+                transition: .3s;
+                button {
+                    display: none;
+                }
+            }
+    
+            .slick-active {
+                opacity: 1;
+            }
+        }
+        
+    }
+}
+
+.bed-popmat {
+
+    &__mat {
+        max-width: 100%;
+    }
+}

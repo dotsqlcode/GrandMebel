@@ -19,6 +19,18 @@ $(".feedback-slider").slick({
 });
 
 
+$(".bed-slider").slick({
+    dots: true,
+    infinite: false,
+    speed: 300,
+    slidesToShow: 1,
+    variableWidth: true,
+    centerMode: true,
+    prevArrow: '<svg id="prev" class="bed-slider__arrow bed-slider__arrow--back"><use xlink:href="#back" /></svg>',
+    nextArrow: '<svg id="next" class="bed-slider__arrow bed-slider__arrow--next"><use xlink:href="#next" /></svg>',
+});
+
+
 //Hover effect for fabrics
 
 $('.step__fabrics').find('.step__fabrics-hover').each(function () {
