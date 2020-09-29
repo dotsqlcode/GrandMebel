@@ -138,6 +138,7 @@ import './img/bed/bed-big.jpg';
 import './img/bed/bed-cover.jpg';
 import './img/bed/bed-cover-form.jpg';
 import './img/bed/bed-desc.jpg';
+import './img/bed/bed-desc2.jpg';
 import './img/bed/bed-main.png';
 import './img/bed/bed-material.jpg';
 import './img/bed/bed-schem1.jpg';

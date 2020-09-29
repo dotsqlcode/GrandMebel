@@ -1,5 +1,13 @@
 .bed-offer {
     padding: 9.37rem 0;
+
+    .bed-item {
+        &__image {
+            @media screen and (max-width: 767px) {
+                margin-bottom: 2rem;
+            }
+        }
+    }
 }
 
 .bed-desc {
@@ -19,6 +27,10 @@
         span {
             font-weight: @fwSB;
         }
+
+        @media screen and (max-width: 991px) {
+            margin-bottom: 2rem;
+        }
     }
 }
 
@@ -28,6 +40,16 @@
     .container {
         min-height: 900px;
         padding: 5.62rem 0;
+
+        @media screen and (max-width: 1199px) {
+            min-height: 400px;
+            padding: 3.62rem 0;
+        }
+
+        @media screen and (max-width: 761px) {
+            min-height: 400px;
+            padding: 3.62rem 2rem;
+        }
     }
 
     &__params {
@@ -49,6 +71,19 @@
 
 .complect-item {
     padding: 9.37rem 0;
+
+    .bed-complect {
+
+        &__picture {
+            @media screen and (max-width: 1199px) {
+                display: none;
+            }
+
+            @media screen and (max-width: 767px) {
+                display: block;
+            }
+        }
+    }
 }
 
 .bed-place {
@@ -74,28 +109,59 @@
     &__image {
         display: block;
         max-width: 100%;
+
+        @media screen and (max-width: 991px) {
+            margin-bottom: 2rem;
+        }
     }
     
 }
 
 .bed-schems {
+
+
+    @media screen and (max-width: 875px) {
+        margin-bottom: 2rem;
+    }
+
+
     &__title {
         text-align: center;
         font-size: 2.1rem;
         position: relative;
         z-index: 5;
         font-weight: @fwN;
+
+        @media screen and (max-width: 875px) {
+            font-size: 1.5rem;
+        }
     }
 
     .bed-slider {
         margin-top: -70px;
         overflow: hidden;
         position: relative;
+
+        @media screen and (max-width: 875px) {
+            margin-top: -30px;
+        }
+
+        @media screen and (max-width: 475px) {
+            margin-top: 0px;
+        }
     
         .slick-slide {
             width: 875px;
             transition: @defaultTransition;
             opacity: .4;
+
+            @media screen and (max-width: 875px) {
+                width: 600px;
+            }
+
+            @media screen and (max-width: 475px) {
+                width: 460px;
+            }
         }
 
         .slick-current {
@@ -122,10 +188,34 @@
     
             &--back {
                 left: 26%;
+
+                @media screen and (max-width: 1330px) {
+                    left: 20%;
+                }
+
+                @media screen and (max-width: 993px) {
+                    left: 10%;
+                }
+
+                @media screen and (max-width: 553px) {
+                    left: 2%;
+                }
             }
     
             &--next {
                 right: 26%;
+
+                @media screen and (max-width: 1330px) {
+                    right: 20%;
+                }
+
+                @media screen and (max-width: 993px) {
+                    right: 10%;
+                }
+
+                @media screen and (max-width: 553px) {
+                    right: 2%;
+                }
             }
         }
     
@@ -158,8 +248,31 @@
 }
 
 .bed-popmat {
+    padding-bottom: 7rem;
 
     &__mat {
         max-width: 100%;
+        margin-bottom: 1.87rem;
+    }
+
+
+    .container-fluid {
+        margin-bottom: 3rem;
+    }
+
+    &__title {
+        font-size: 2.12rem;
+        color: @textColor;
+        text-align: center;
+        font-weight: @fwN;
+        margin-bottom: 3.4rem;
+    }
+
+    &__link-more {
+        color: #949494;
+        font-weight: @fwM;
+        font-size: 20px;
+        display: block;
+        text-align: center;
     }
 }
