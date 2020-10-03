@@ -4,6 +4,10 @@
     justify-content: center;
     align-items: center;
 
+    @media screen and (max-width: 849px) {
+        min-height: 14rem;
+    }
+
     &__headline {
         font-family: Montserrat Alternates;
         font-size: 5rem;
@@ -11,5 +15,17 @@
         text-transform: uppercase;
         font-weight: @fwN;
         text-align: center;
+
+        @media screen and (max-width: 1199px) {
+            font-size: 4rem;
+        }
+
+        @media screen and (max-width: 849px) {
+            font-size: 3rem;
+        }
+
+        @media screen and (max-width: 500px) {
+            font-size: 2rem;
+        }
     }
 }

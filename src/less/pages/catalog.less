@@ -1,8 +1,9 @@
 .catalog-items {
     margin-bottom: -4rem;
+    padding: 5.87rem 0 7.12rem 0;
 
     .catalog-item {
-        margin-bottom: 3rem;
+        margin-bottom: 3.75rem;
 
         &__image {
             @media screen and (max-width: 1055px) {
@@ -12,6 +13,33 @@
 
         @media screen and (max-width: 995px) {
             margin-bottom: 0rem;
+        }
+    }
+}
+
+.catalog {
+
+    .catalog-menu {
+
+        @media screen and (max-width: 771px) {
+            margin-bottom: 2rem;
+        }
+
+        @media screen and (max-width: 600px) {
+            margin-bottom: 1rem;
+        }
+
+        &__item {
+            @media screen and (max-width: 428px) {
+                width: 80px;
+                margin-bottom: 1rem;
+            }
+        }
+
+        &__item-name {
+            @media screen and (max-width: 428px) {
+                font-size: 1.2rem;
+            }
         }
     }
 }

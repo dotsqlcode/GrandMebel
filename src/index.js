@@ -179,3 +179,6 @@ import './img/icons/facebook.svg';
 import './img/icons/facebook-f.svg';
 import './img/icons/vk-f.svg';
 import './img/icons/instagram-f.svg';
+import './img/icons/box.svg';
+import './img/icons/pen.svg';
+import './img/icons/hummer.svg';

@@ -58,12 +58,7 @@ $('.step__fabrics').find('.step__fabrics-hover').each(function () {
 
 
 //Burger menu
-let menuHeight = $('.nav--mobile').height();
 
-$('.nav--mobile').animate({
-    height: "0px",
-    paddingTop: "0px"
-})
 
 $('.nav__burger').on('click', function() {
 
@@ -80,7 +75,7 @@ $('.nav__burger').on('click', function() {
 
     } else {
         $('.nav--mobile').animate({
-            height: menuHeight + "px",
+            height: 242 + "px",
             paddingTop: "30px"
     
         })

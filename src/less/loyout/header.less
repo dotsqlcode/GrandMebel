@@ -8,10 +8,10 @@
         }
 
         &--mobile {
-            display: none;
+            height: 0;
+            padding-top: 0;
             margin-left: 0;
             overflow: hidden;
-            padding-top: 30px;
             @media screen and (max-width: 1199px) {
                 display: block;
             }
@@ -25,6 +25,14 @@
                 display: block;
                 margin-left: 0;
                 margin-bottom: 30px;
+            }
+        }
+    }
+
+    .logo {
+        &__image {
+            @media screen and (max-width: 1199px) {
+                max-width: 95px;
             }
         }
     }
