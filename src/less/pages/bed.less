@@ -1,10 +1,26 @@
 .bed-offer {
     padding: 9.37rem 0;
 
+    @media screen and (max-width: 767px) {
+        padding: 4.37rem 0;
+    }
+
     .bed-item {
         &__image {
             @media screen and (max-width: 767px) {
                 margin-bottom: 2rem;
+            }
+        }
+
+        &__content {
+            @media screen and (max-width: 767px) {
+                text-align: center;
+            }
+        }
+
+        .refer {
+            @media screen and (max-width: 767px) {
+                margin: 0 auto;
             }
         }
     }
@@ -12,6 +28,10 @@
 
 .bed-desc {
     padding-bottom: 9.37rem;
+
+    @media screen and (max-width: 767px) {
+        padding-bottom: 4.37rem;
+    }
 
     &__image {
         max-width: 100%;
@@ -72,7 +92,15 @@
 .complect-item {
     padding: 9.37rem 0;
 
+    @media screen and (max-width: 767px) {
+        padding: 4.37rem 0;
+    }
+
     .bed-complect {
+
+        &__title {
+            line-height: 30px;
+        }
 
         &__picture {
             @media screen and (max-width: 1199px) {
@@ -108,7 +136,7 @@
 
     &__image {
         display: block;
-        max-width: 100%;
+        max-width: 95%;
 
         @media screen and (max-width: 991px) {
             margin-bottom: 2rem;
@@ -249,10 +277,17 @@
 
 .bed-popmat {
     padding-bottom: 7rem;
+    overflow: hidden;
 
     &__mat {
         max-width: 100%;
         margin-bottom: 1.87rem;
+        position: relative;
+        transition: @defaultTransition;
+
+        &:hover {
+            transform: scale(1.15);
+        }
     }
 
 

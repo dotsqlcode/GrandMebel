@@ -156,6 +156,15 @@ import './img/bed/mat (10).jpg';
 import './img/bed/mat (11).jpg';
 import './img/bed/mat (12).jpg';
 
+import './img/tkani/mobile/ecokoja.png';
+import './img/tkani/mobile/flok.png';
+import './img/tkani/mobile/isskystven.png';
+import './img/tkani/mobile/jakard.png';
+import './img/tkani/mobile/natkoja.png';
+import './img/tkani/mobile/rogoja.png';
+import './img/tkani/mobile/shenil.png';
+import './img/tkani/mobile/velur.png';
+
 //Styles
 
 import './less/style.less';
