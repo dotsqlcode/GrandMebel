@@ -4,7 +4,7 @@
 
     @media screen and (max-width: 991px) {
         padding-top: 3.5rem;
-        padding-bottom: 4.62rem;
+        padding-bottom: 0;
     }
 
     &__title {
@@ -120,11 +120,20 @@
     padding-top: 6.52rem;
 
     .step {
+
+        @media screen and (max-width: 991px) {
+            margin-bottom: 6rem;
+        }
+
+        &__title {
+            line-height: 35px;
+        }
+
         &__image-wrap {
 
             & > * {
                 @media screen and (max-width: 1199px) {
-                    max-width: 70%;
+                    max-width: 85%;
                 }
             }
             

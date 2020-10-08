@@ -4,7 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Grand Mebel</title>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@300;400;500;600;700&family=Montserrat:wght@300;400;500;600;700&display=swap" rel="stylesheet"> 
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@300;400;500;600;700&family=Montserrat:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <script src="https://api-maps.yandex.ru/2.1/?apikey=fec12545-ad22-4fec-b492-4e731ea11d70&lang=ru_RU" type="text/javascript"></script>
 </head>
 <body>
     <header class="header">
@@ -47,8 +48,8 @@
         </div>
     </header>
     <main>
-        <section class="map map--shops">
-            <script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3Addfc8cd9de85ddc9dc00b7313ed7b97351331cec7875109064c96a4970860e89&amp;width=100%25&amp;height=520&amp;lang=ru_RU&amp;scroll=true"></script>
+        <section id="map" class="map map--shops">
+            
         </section>
         <section class="shops">
             <div class="container">
@@ -64,9 +65,9 @@
                     <div class="row">
                         <div class="col-xl-4 col-md-6">
                             <div class="shop-item">
-                                <span class="shop-item__name">
+                                <a href="#map" data-id="1" class="shop-item__name">
                                     ЦДиИ «Expostroy»
-                                </span>
+                                </a>
                                 <span class="shop-item__desc">
                                     Нахимовский проспект, 24
                                 </span>
@@ -80,9 +81,9 @@
                         </div>
                         <div class="col-xl-4 col-md-6">
                             <div class="shop-item">
-                                <span class="shop-item__name">
+                                <a href="#map" data-id="2" class="shop-item__name">
                                     МЦ «Империя»
-                                </span>
+                                </a>
                                 <span class="shop-item__desc">
                                     Дмитровское шоссе, 161 б
                                 </span>
@@ -96,9 +97,9 @@
                         </div>
                         <div class="col-xl-4 col-md-6">
                             <div class="shop-item">
-                                <span class="shop-item__name">
+                                <a href="#map" data-id="3" class="shop-item__name">
                                     ТЦ «Черёмушки»
-                                </span>
+                                </a>
                                 <span class="shop-item__desc">
                                     Профсоюзная улица, 56
                                 </span>
@@ -112,9 +113,9 @@
                         </div>
                         <div class="col-xl-4 col-md-6">
                             <div class="shop-item">
-                                <span class="shop-item__name">
+                                <a href="#map" data-id="4" class="shop-item__name">
                                     ТРК VEGAS
-                                </span>
+                                </a>
                                 <span class="shop-item__desc">
                                     Каширское шоссе, 24 км МКАД
                                 </span>
@@ -128,9 +129,9 @@
                         </div>
                         <div class="col-xl-4 col-md-6">
                             <div class="shop-item">
-                                <span class="shop-item__name">
+                                <a href="#map" data-id="5" class="shop-item__name">
                                     МЦ «Family room»
-                                </span>
+                                </a>
                                 <span class="shop-item__desc">
                                     Ленинградское шоссе 25
                                 </span>
@@ -144,9 +145,9 @@
                         </div>
                         <div class="col-xl-4 col-md-6">
                             <div class="shop-item">
-                                <span class="shop-item__name">
+                                <a href="#map" data-id="6" class="shop-item__name">
                                     МЦ «Family room»
-                                </span>
+                                </a>
                                 <span class="shop-item__desc">
                                     Киевское шоссе, 1,5 км от МКАД
                                 </span>
@@ -160,9 +161,9 @@
                         </div>
                         <div class="col-xl-4 col-md-6">
                             <div class="shop-item">
-                                <span class="shop-item__name">
+                                <a href="#map" data-id="7" class="shop-item__name">
                                     МЦ «Соле молл»
-                                </span>
+                                </a>
                                 <span class="shop-item__desc">
                                     Ярославское шоссе, 19 стр. 1
                                 </span>
@@ -176,9 +177,9 @@
                         </div>
                         <div class="col-xl-4 col-md-6">
                             <div class="shop-item">
-                                <span class="shop-item__name">
+                                <a href="#map" data-id="8" class="shop-item__name">
                                     МЦ «Roomer»
-                                </span>
+                                </a>
                                 <span class="shop-item__desc">
                                     Улица Ленинская Слобода, 26
                                 </span>
@@ -189,9 +190,9 @@
                         </div>
                         <div class="col-xl-4 col-md-6">
                             <div class="shop-item">
-                                <span class="shop-item__name">
+                                <a href="#map" data-id="9" class="shop-item__name">
                                     МТЦ «Мебель-Сити»
-                                </span>
+                                </a>
                                 <span class="shop-item__desc">
                                     Дмитровское шоссе, 118 к. 1
                                 </span>
@@ -202,9 +203,9 @@
                         </div>                        
                         <div class="col-xl-4 col-md-6">
                             <div class="shop-item">
-                                <span class="shop-item__name">
+                                <a href="#map" data-id="10" class="shop-item__name">
                                     МК «Армада»
-                                </span>
+                                </a>
                                 <span class="shop-item__desc">
                                     Кировоградская улица, 11
                                 </span>
@@ -215,9 +216,9 @@
                         </div>
                         <div class="col-xl-4 col-md-6">
                             <div class="shop-item">
-                                <span class="shop-item__name">
+                                <a href="#map" data-id="11" class="shop-item__name">
                                     ТРЦ «Чайна Таун»
-                                </span>
+                                </a>
                                 <span class="shop-item__desc">
                                     32 км МКАД
                                 </span>
@@ -239,9 +240,9 @@
                     <div class="row">
                         <div class="col-xl-4 col-md-6">
                             <div class="shop-item">
-                                <span class="shop-item__name">
+                                <a href="#map" data-id="12" class="shop-item__name">
                                     ТРК «Красный кит»
-                                </span>
+                                </a>
                                 <span class="shop-item__desc">
                                     г. Красногорск, улица Ленина, 2
                                 </span>
@@ -266,9 +267,9 @@
                     <div class="row"> 
                         <div class="col-xl-4 col-md-6">
                             <div class="shop-item">
-                                <span class="shop-item__name">
+                                <a href="#map" data-id="13" class="shop-item__name">
                                     МЦ «Таурус»
-                                </span>
+                                </a>
                                 <span class="shop-item__desc">
                                     улица Коминтерна, 24 б
                                 </span>
@@ -282,9 +283,9 @@
                         </div>
                         <div class="col-xl-4 col-md-6">
                             <div class="shop-item">
-                                <span class="shop-item__name">
+                                <a href="#map" data-id="14" class="shop-item__name">
                                     ЦМиИ «Мебель Молл»
-                                </span>
+                                </a>
                                 <span class="shop-item__desc">
                                     Осиновая гора, 2
                                 </span>
@@ -310,9 +311,9 @@
                         
                         <div class="col-xl-4 col-md-6">
                             <div class="shop-item">
-                                <span class="shop-item__name">
+                                <a href="#map" data-id="15" class="shop-item__name">
                                     ИМ «Themebel»
-                                </span>
+                                </a>
                                 <span class="shop-item__desc">
                                     улица Батуевская ветка, 20 б
                                 </span>
@@ -335,9 +336,9 @@
                     <div class="row">
                         <div class="col-xl-4 col-md-6">
                             <div class="shop-item">
-                                <span class="shop-item__name">
+                                <a href="#map" data-id="16" class="shop-item__name">
                                     МЦ «Таурус»
-                                </span>
+                                </a>
                                 <span class="shop-item__desc">
                                     улица Калинина, 29 б
                                 </span>

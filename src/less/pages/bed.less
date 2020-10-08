@@ -102,6 +102,7 @@
             line-height: 30px;
         }
 
+
         &__picture {
             @media screen and (max-width: 1199px) {
                 display: none;
@@ -232,6 +233,7 @@
     
             &--next {
                 right: 26%;
+                transform: translateY(-50%) rotate(180deg);
 
                 @media screen and (max-width: 1330px) {
                     right: 20%;
@@ -279,9 +281,31 @@
     padding-bottom: 7rem;
     overflow: hidden;
 
+    .row {
+        @media screen and (max-width: 991px) {
+            margin-left: -7px;
+            margin-right: -7px;
+        }
+    }
+
+    .col-xl-2 {
+        @media screen and (max-width: 991px) {
+            padding-left: 7px;
+            padding-right: 7px;
+        }
+    }
+
+    &__mat-wrap {
+        overflow: hidden;
+        margin-bottom: 1.87rem;
+
+        @media screen and (max-width: 991px) {
+            margin-bottom: 0.5rem;
+        }
+    }
+
     &__mat {
         max-width: 100%;
-        margin-bottom: 1.87rem;
         position: relative;
         transition: @defaultTransition;
 

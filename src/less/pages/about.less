@@ -15,10 +15,26 @@
         color: @textColor;
         text-align: center;
         line-height: 30px;
+
+        br {
+            @media screen and (max-width: 1199px) {
+                display: none;
+            }
+        }
     }
 
     .step {
         margin-bottom: 7.3rem;
+
+        @media screen and (max-width: 991px) {
+            margin-bottom: 4.3rem;
+        }
+
+        br {
+            @media screen and (max-width: 1199px) {
+                display: none;
+            } 
+        }
 
         &__image-wrap {
 
@@ -51,11 +67,20 @@
         line-height: 30px;
         margin-bottom: 5.75rem;
 
+        
         @media screen and (max-width: 991px) {
             margin-bottom: 2.75rem;
         }
 
         .col-xl-6 {
+
+            &:first-child {
+                p {
+                    display: block;
+                    padding-right: 26px;
+                }        
+            }
+
             @media screen and (max-width: 991px) {
                 margin-bottom: 20px;
             }
