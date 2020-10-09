@@ -252,49 +252,53 @@ const placemarks = [
 ]
 
 
-
-
-ymaps.ready(init);
-function init(){
-    var myMap = new ymaps.Map("map", {
-        center: [55.76, 37.64],
-        zoom: 7
-    });
-
-
-    let points = placemarks.map((item, index) => {
-        let point = new ymaps.Placemark(item.coords, { 
-            balloonContentHeader: item.name,
-            balloonContent: item.desc,
-        }, 
-        {
-            preset: 'islands#redIcon',
+try {
+    ymaps.ready(init);
+    function init(){
+        var myMap = new ymaps.Map("map", {
+            center: [55.76, 37.64],
+            zoom: 7
         });
-        // point.description = item.desc;
-        // point.name = item.name;
-        return point;
-    })
-
-    points.forEach((item) => {
-        myMap.geoObjects.add(item);
-    })
-
-    //Mark point on the map
-    $('.shop-item__name').on('click', function() {
-        setTimeout(() => {
-            let targetId = $(this).data('id');
-
-            placemarks.forEach((item) => {
-                if(item.id == targetId) {
-                    myMap.setCenter(item.coords, 17, {
-                        duration: 400,
-                        checkZoomRange: true,
-                    });
-                }
-            })
-        }, 400)
-    })
-
+    
+    
+        let points = placemarks.map((item, index) => {
+            let point = new ymaps.Placemark(item.coords, { 
+                balloonContentHeader: item.name,
+                balloonContent: item.desc,
+            }, 
+            {
+                preset: 'islands#redIcon',
+            });
+            // point.description = item.desc;
+            // point.name = item.name;
+            return point;
+        })
+    
+        points.forEach((item) => {
+            myMap.geoObjects.add(item);
+        })
+    
+        //Mark point on the map
+        $('.shop-item__name').on('click', function() {
+            setTimeout(() => {
+                let targetId = $(this).data('id');
+    
+                placemarks.forEach((item) => {
+                    if(item.id == targetId) {
+                        myMap.setCenter(item.coords, 17, {
+                            duration: 400,
+                            checkZoomRange: true,
+                        });
+                    }
+                })
+            }, 400)
+        })
+    
+    }
+} catch(e) {
+    console.log('Карта не найдена')
 }
+
+
 
 

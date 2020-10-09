@@ -2,6 +2,12 @@
     background-color: #111;
     padding: 3.9rem 0 7rem 0;
 
+    .container {
+        @media screen and (max-width: 620px) {
+            padding: 0 50px;
+        }
+    }
+
     &__list {
 
         &:not(:first-child) {
@@ -38,7 +44,6 @@
     &__list-wrap {
         @media screen and (max-width: 620px) {
             flex-direction: column;
-            padding: 0 25%;
         }
     }
 
@@ -71,6 +76,19 @@
         }
     }
 
+    .col-xl-3 {
+        @media screen and (max-width: 1199px) {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-top: 50px;
+        }
+
+        @media screen and (max-width: 997px) {
+            display: block;
+        }
+    }
+
     .num {
         color: @whiteColor;
         font-size: 1.9rem;
@@ -82,6 +100,11 @@
 
         @media screen and (max-width: 1199px) {
             text-align: left;
+            margin-bottom: 0;
+        }
+
+        @media screen and (max-width: 997px) {
+            margin-bottom: 34px;
         }
 
  
@@ -97,6 +120,11 @@
 
         @media screen and (max-width: 1199px) {
             text-align: left;
+            margin-bottom: 0;
+        }
+
+        @media screen and (max-width: 997px) {
+            margin-bottom: 24px;
         }
 
     }
@@ -124,6 +152,10 @@
     }
 
     .social-media {
+
+        @media screen and (max-width: 997px) {
+            margin-bottom: 40px;
+        }
 
         &__link {
             transition: @defaultTransition;
