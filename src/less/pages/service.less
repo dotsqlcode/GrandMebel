@@ -4,7 +4,7 @@
 
     @media screen and (max-width: 991px) {
         padding-top: 3.5rem;
-        padding-bottom: 0;
+        padding-bottom: 4rem;
     }
 
     &__title {
@@ -149,6 +149,12 @@
 
 .service-form {
     padding: 4.5rem 0;
+
+    br {
+        @media screen and (max-width:991px) {
+            display: none;
+        }
+    }
 
     &__title {
         color: @whiteColor;
