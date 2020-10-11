@@ -5,6 +5,7 @@ import './libs/Normalize/Normalize.css';
 import $ from 'jquery';
 import 'slick-carousel';
 import './../node_modules/slick-carousel/slick/slick.css';
+import './libs/cocoen/cocoen.min.css';
 
 //Assets
 
@@ -164,6 +165,10 @@ import './img/tkani/mobile/natkoja.png';
 import './img/tkani/mobile/rogoja.png';
 import './img/tkani/mobile/shenil.png';
 import './img/tkani/mobile/velur.png';
+
+
+import './img/befoslider/after.png';
+import './img/befoslider/before.png';
 
 //Styles
 

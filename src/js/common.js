@@ -1,3 +1,5 @@
+import Cocoen from './../libs/cocoen/cocoen.min.js';
+
 $(".catalog-slider").slick({
     infinite: true,
     slidesToShow: 1,
@@ -300,5 +302,5 @@ try {
 }
 
 
-
-
+//Before after slider
+new Cocoen(document.querySelector('.beforeafter'));

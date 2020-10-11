@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "dependencies": {
+    "cocoen": "^2.0.5",
     "jquery": "^3.5.1",
     "slick-carousel": "^1.8.1",
     "webpack": "^4.44.1"
