@@ -345,14 +345,37 @@
         padding-top: 4rem;
     }
     
-    .container {
-        background-color: #F8F8F8;
-        display: flex;
-        justify-content: center;
-    }
 
     .beforeafter {
         max-width: 60%;
+    }
+}
+
+.bed-beforeafter-wrap {
+    background-color: #F8F8F8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 520px;
+    position: relative;
+    overflow: hidden;
+
+    @media screen and (max-width: 991px) {
+        min-height: 400px;
+    }
+
+    @media screen and (max-width: 771px) {
+        min-height: 300px;
+    }
+
+    @media screen and (max-width: 540px) {
+        min-height: 200px;
+    }
+
+    .cocoen-drag {
+        min-height: 520px;
+        top: 50%;
+        transform: translateY(-50%);
     }
 }
 
