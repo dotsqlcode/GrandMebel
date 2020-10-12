@@ -166,6 +166,8 @@ import './img/tkani/mobile/rogoja.png';
 import './img/tkani/mobile/shenil.png';
 import './img/tkani/mobile/velur.png';
 
+import './img/textura.jpg';
+
 
 import './img/befoslider/after.png';
 import './img/befoslider/before.png';
